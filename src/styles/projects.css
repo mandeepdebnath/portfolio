@@ -1,0 +1,14 @@
+.projects {
+  background: #1f1f1f;
+  padding: 50px 100px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 50px 30px;
+  }
+}
