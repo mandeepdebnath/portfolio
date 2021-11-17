@@ -3,6 +3,9 @@ import styled from "styled-components";
 import Button from "./Button";
 
 const Card = (props) => {
+  const { tags = [] } = props;
+
+  console.log({ tags });
   return (
     <>
       <Cardstyled>
@@ -10,10 +13,16 @@ const Card = (props) => {
         <Content>
           <h2>{props.title}</h2>
           <Tags>
-            <Tag>HTML</Tag>
+            {tags.map((tag) => (
+              <Tag>{tag}</Tag>
+            ))}
+
+            {/* {props.tags}.map(()=><Tag>{props.tags}</Tag>) */}
+            {/* <Tag>{props.tags}</Tag> */}
+            {/* <Tag>HTML</Tag>
             <Tag>CSS</Tag>
             <Tag>JavaScript</Tag>
-            <Tag>React</Tag>
+            <Tag>React</Tag> */}
           </Tags>
           <Bodydata>{props.info}</Bodydata>
           <Buttons>
@@ -58,6 +67,8 @@ export const Cardstyled = styled.div`
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
     -ms-interpolation-mode: nearest-neighbor;
+
+    box-shadow: 0 5px 10px 0 #000000;
 
     @media (max-width: 768px) {
       width: 100%;
