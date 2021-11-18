@@ -16,6 +16,7 @@ body {
   color: #f1f7ee;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  animation: loadin 0.75s;
 }
 
 a {
@@ -23,13 +24,12 @@ a {
   color: #f1f7ee;
 }
 
-/* ----colors---- */
-/* dark-bg-primary #222222
-dark-bg-secondary #1F1F1F
-dard-bg-text #F1F7EE
+@keyframes loadin {
+  from {
+    opacity: 0;
+  }
 
-secondary-color #F26C4F
-
-light-bg- #F1F7EE
-
-body-text #C2C2C2 */
+  to {
+    opacity: 1;
+  }
+}

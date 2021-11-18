@@ -9,7 +9,7 @@ const Button = styled.a`
   box-shadow: 2px 2px 0 0 ${(props) => props.shadowColor};
   text-decoration: none;
   cursor: pointer;
-  transition: transform 0.5s ease;
+  transition: transform 0.22s ease-in-out;
 
   :hover {
     transform: scale(0.98);

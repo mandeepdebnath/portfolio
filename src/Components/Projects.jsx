@@ -54,6 +54,15 @@ const Projects = () => {
           target="_blank"
         />
         <Card
+          image="https://i.imgur.com/aNAeEKX.png"
+          title="Rock Paper Scissors Game"
+          info="A rock paper scissors game made using HTML, CSS and Vanilla JavaScript."
+          tags={["HTML", "CSS", "JavaScript"]}
+          demourl="https://rockpaperscissors-game-md.netlify.app/"
+          githuburl="https://github.com/mandeepdebnath/rock-paper-scissors"
+          target="_blank"
+        />
+        <Card
           image="https://i.imgur.com/Sp18pBU.png"
           title="Meditation App"
           info="A meditation app made using HTML, CSS and Vanilla JavaScript that plays relaxing sounds to meditate."
