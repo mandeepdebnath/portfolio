@@ -1,22 +1,46 @@
 import React from "react";
 import "../styles/header.css";
 import Button from "./Button";
-// import LightButton from "./LightButton";
+import logo from "../assets/logo.png";
+import twitter from "../assets/twitter.svg";
+import linkedin from "../assets/linkedin.svg";
+import github from "../assets/github.svg";
 
 const Header = () => {
   return (
     <>
       <header>
         <nav>
-          <h1>MD</h1>
+          <img src={logo} alt="logo" />
           <ul>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li>
+              <a href="#projects" className="hover-animation">
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="hover-animation">
+                Contact
+              </a>
+            </li>
           </ul>
         </nav>
 
         <div className="header-content">
-          <h1>Mandeep Debnath</h1>
+          <div className="name">
+            <h1>Mandeep Debnath</h1>
+            <div className="social-icons">
+              <a href="#">
+                <img src={twitter} alt="twitter" />
+              </a>
+              <a href="#">
+                <img src={linkedin} alt="linkedin" />
+              </a>
+              <a href="#">
+                <img src={github} alt="github" />
+              </a>
+            </div>
+          </div>
           <div className="info">
             <p className="role">Frontend developer</p>
             <div className="content-body">
@@ -36,6 +60,7 @@ const Header = () => {
                 borderColor="#F26C4F"
                 shadowColor="#F26C4F"
                 textColor="#F1F7EE"
+                href="#projects"
               >
                 View Projects
               </Button>

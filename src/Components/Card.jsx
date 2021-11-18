@@ -4,8 +4,6 @@ import Button from "./Button";
 
 const Card = (props) => {
   const { tags = [] } = props;
-
-  console.log({ tags });
   return (
     <>
       <Cardstyled>
@@ -16,13 +14,6 @@ const Card = (props) => {
             {tags.map((tag) => (
               <Tag>{tag}</Tag>
             ))}
-
-            {/* {props.tags}.map(()=><Tag>{props.tags}</Tag>) */}
-            {/* <Tag>{props.tags}</Tag> */}
-            {/* <Tag>HTML</Tag>
-            <Tag>CSS</Tag>
-            <Tag>JavaScript</Tag>
-            <Tag>React</Tag> */}
           </Tags>
           <Bodydata>{props.info}</Bodydata>
           <Buttons>
@@ -31,6 +22,8 @@ const Card = (props) => {
               borderColor="#F26C4F"
               shadowColor="#F26C4F"
               textColor="#F1F7EE"
+              href={props.demourl}
+              target={props.target}
             >
               View Live Demo
             </Button>
@@ -39,6 +32,8 @@ const Card = (props) => {
               borderColor="#c2c2c2"
               shadowColor="#c2c2c2"
               textColor="#c2c2c2"
+              href={props.githuburl}
+              target={props.target}
             >
               Github
             </Button>
@@ -55,7 +50,7 @@ export const Cardstyled = styled.div`
   display: flex;
   gap: 30px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     flex-direction: column;
   }
 
@@ -70,7 +65,7 @@ export const Cardstyled = styled.div`
 
     box-shadow: 0 5px 10px 0 #000000;
 
-    @media (max-width: 768px) {
+    @media (max-width: 800px) {
       width: 100%;
     }
   }
@@ -83,7 +78,7 @@ export const Content = styled.div`
   gap: 15px;
   justify-content: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     width: 100%;
   }
 `;

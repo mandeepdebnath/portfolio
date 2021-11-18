@@ -11,6 +11,15 @@ nav {
   margin-bottom: 30px;
 }
 
+nav img {
+  width: 50px;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
 nav h1 {
   color: #f26c4f;
   font-size: 2rem;
@@ -41,6 +50,7 @@ ul li {
   position: relative;
   line-height: 1.2;
   flex-basis: 0;
+  padding: 0 10px;
 }
 
 .header-content h1::before {
@@ -60,6 +70,20 @@ ul li {
   color: #c2c2c2;
 }
 
+.social-icons {
+  display: flex;
+  gap: 50px;
+  justify-content: flex-end;
+  padding: 20px 30px;
+}
+
+.social-icons img {
+  width: 30px;
+  filter: invert(58%) sepia(89%) saturate(1912%) hue-rotate(325deg)
+    brightness(94%) contrast(101%);
+  opacity: 0.5;
+}
+
 .header-content .info {
   max-width: 40ch;
   display: flex;
@@ -69,6 +93,7 @@ ul li {
 
 .info .role {
   color: #f26c4f;
+  position: relative;
 }
 
 .buttons {
@@ -76,7 +101,7 @@ ul li {
   gap: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .header-content {
     flex-direction: column;
     gap: 15px;
@@ -84,6 +109,10 @@ ul li {
 
   .header-content h1 {
     text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
   }
 
   .header-content h1::before {
