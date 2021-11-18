@@ -4,7 +4,7 @@
 
 .wrapper {
   display: flex;
-  padding: 50px;
+  padding: 100px;
   gap: 50px;
   justify-content: center;
   align-items: center;
@@ -54,6 +54,7 @@ a {
 @media (max-width: 800px) {
   .wrapper {
     flex-direction: column;
+    padding: 30px;
   }
 
   img {
