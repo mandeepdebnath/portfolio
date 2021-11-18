@@ -30,13 +30,25 @@ const Header = () => {
           <div className="name">
             <h1>Mandeep Debnath</h1>
             <div className="social-icons">
-              <a href="#">
+              <a
+                href="https://twitter.com/mannndeee"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={twitter} alt="twitter" />
               </a>
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/in/mandeepdebnath/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={linkedin} alt="linkedin" />
               </a>
-              <a href="#">
+              <a
+                href="https://github.com/mandeepdebnath"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={github} alt="github" />
               </a>
             </div>
@@ -69,6 +81,9 @@ const Header = () => {
                 borderColor="#c2c2c2"
                 shadowColor="#c2c2c2"
                 textColor="#c2c2c2"
+                href="https://github.com/mandeepdebnath/portfolio/blob/main/src/Resume/resume.pdf"
+                target="_blank"
+                rel="noreferrer"
               >
                 View Resume
               </Button>

@@ -16,15 +16,30 @@ const Contact = () => {
               love to hear your ideas and work with you.
             </p>
             <div className="social">
-              <a href="#" className="hover-animation">
+              <a
+                href="mailto:mandeepdebnath@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-animation"
+              >
                 Email: mandeepdebnath@gmail.com
               </a>{" "}
               <br />
-              <a href="#" className="hover-animation">
+              <a
+                href="https://twitter.com/mannndeee"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-animation"
+              >
                 Connect on Twitter
               </a>{" "}
               <br />
-              <a href="#" className="hover-animation">
+              <a
+                href="https://www.linkedin.com/in/mandeepdebnath/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-animation"
+              >
                 Connect on Linkedin
               </a>
             </div>
@@ -34,6 +49,8 @@ const Contact = () => {
                 borderColor="#F26C4F"
                 shadowColor="#F26C4F"
                 textColor="#F1F7EE"
+                href="https://github.com/mandeepdebnath/portfolio/blob/main/src/Resume/resume.pdf"
+                target="_blank"
               >
                 View Resume
               </Button>
@@ -42,6 +59,8 @@ const Contact = () => {
                 borderColor="#c2c2c2"
                 shadowColor="#c2c2c2"
                 textColor="#c2c2c2"
+                href="https://github.com/mandeepdebnath"
+                target="_blank"
               >
                 View Github Profile
               </Button>
