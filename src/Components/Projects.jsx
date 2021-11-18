@@ -11,7 +11,7 @@ const Projects = () => {
         <Card
           image="https://i.imgur.com/XaAlzaY.png"
           title="Netflix Clone"
-          info="Netflix clone made using React and API. This app fetches the movies data from TMDB database. I have used plain CSS to style the components and make it look like the original Netflix website."
+          info="Netflix clone made using React and TMDB API. This app fetches the movies data from TMDB database. I have used plain CSS to style the components and make it look like the original Netflix website."
           tags={["HTML", "CSS", "JavaScript", "React"]}
           demourl="https://netflixclone-m.netlify.app/"
           githuburl="https://github.com/mandeepdebnath/netflix-clone"
