@@ -53,6 +53,15 @@ const Projects = () => {
           githuburl="https://github.com/mandeepdebnath/tic-tac-toe"
           target="_blank"
         />
+        <Card
+          image="https://i.imgur.com/Sp18pBU.png"
+          title="Meditation App"
+          info="A meditation app made using HTML, CSS and Vanilla JavaScript that plays relaxing sounds to meditate."
+          tags={["HTML", "CSS", "JavaScript"]}
+          demourl="https://mandeepdebnath.github.io/meditation-app/"
+          githuburl="https://github.com/mandeepdebnath/meditation-app"
+          target="_blank"
+        />
       </section>
     </>
   );
