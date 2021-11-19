@@ -86,6 +86,10 @@ export const Content = styled.div`
 export const Tags = styled.div`
   display: flex;
   gap: 20px;
+
+  @media (max-width: 450px) {
+    gap: 10px;
+  }
 `;
 export const Tag = styled.div`
   padding: 3px 7px;
@@ -93,6 +97,11 @@ export const Tag = styled.div`
   font-weight: 300;
   background: transparent;
   border: 1px solid #f26c4f;
+
+  @media (max-width: 450px) {
+    padding: 2px 6px;
+    font-size: 10px;
+  }
 `;
 
 export const Bodydata = styled.div`

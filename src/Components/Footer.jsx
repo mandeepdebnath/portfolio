@@ -30,4 +30,8 @@ const Footerstyled = styled.footer`
     gap: 10px;
     justify-content: center;
   }
+
+  @media (max-width: 420px) {
+    font-size: 0.75rem;
+  }
 `;

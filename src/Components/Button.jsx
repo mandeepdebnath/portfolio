@@ -14,6 +14,10 @@ const Button = styled.a`
   :hover {
     box-shadow: 5px 5px 0 0 ${(props) => props.shadowColor};
   }
+
+  @media (max-width: 450px) {
+    font-size: 12px;
+  }
 `;
 
 export default Button;

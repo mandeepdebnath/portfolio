@@ -62,7 +62,7 @@ const Contact = () => {
                 href="https://github.com/mandeepdebnath"
                 target="_blank"
               >
-                View Github Profile
+                View Github
               </Button>
             </div>
           </div>
