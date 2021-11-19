@@ -10,8 +10,10 @@ const Header = () => {
   return (
     <>
       <header>
-        <nav>
-          <img src={logo} alt="logo" />
+        <nav id="top">
+          <a href="/">
+            <img src={logo} alt="logo" />
+          </a>
           <ul>
             <li>
               <a href="#projects" className="hover-animation">

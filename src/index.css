@@ -16,12 +16,15 @@ body {
   color: #f1f7ee;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  animation: loadin 0.75s;
 }
 
 a {
   text-decoration: none;
   color: #f1f7ee;
+}
+
+.header-content {
+  animation: loadin 0.75s;
 }
 
 @keyframes loadin {
