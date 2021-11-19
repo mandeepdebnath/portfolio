@@ -16,7 +16,7 @@ const Button = styled.a`
   }
 
   @media (max-width: 450px) {
-    font-size: 12px;
+    font-size: 15px;
   }
 `;
 

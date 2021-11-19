@@ -56,7 +56,7 @@ ul li {
 .header-content h1::before {
   content: "";
   position: absolute;
-  top: -75px;
+  top: -40px;
   right: -15px;
   height: 350px;
   width: 2px;
@@ -111,6 +111,7 @@ ul li {
   .header-content {
     flex-direction: column;
     gap: 15px;
+    margin-top: 50px;
   }
 
   .header-content h1 {
@@ -148,7 +149,7 @@ ul li {
     gap: 0px;
   }
   .header-content h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 
   .social-icons img {

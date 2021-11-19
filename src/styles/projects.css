@@ -19,3 +19,8 @@ h1 {
     padding: 50px 30px;
   }
 }
+@media (max-width: 420px) {
+  .projects {
+    padding: 50px 20px;
+  }
+}
