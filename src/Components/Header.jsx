@@ -9,25 +9,24 @@ import github from "../assets/github.svg";
 const Header = () => {
   return (
     <>
+      <nav id="top">
+        <a href="/">
+          <img src={logo} alt="logo" />
+        </a>
+        <ul>
+          <li>
+            <a href="#projects" className="hover-animation">
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="hover-animation">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
       <header>
-        <nav id="top">
-          <a href="/">
-            <img src={logo} alt="logo" />
-          </a>
-          <ul>
-            <li>
-              <a href="#projects" className="hover-animation">
-                Projects
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="hover-animation">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </nav>
-
         <div className="header-content">
           <div className="name">
             <h1>Mandeep Debnath</h1>

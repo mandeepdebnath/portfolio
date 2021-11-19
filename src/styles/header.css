@@ -1,14 +1,18 @@
 header {
   background: #222222;
   padding-bottom: 50px;
+  height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
 nav {
+  background: #222222;
   display: flex;
   justify-content: space-between;
-  padding: 30px 100px;
+  padding: 20px 100px;
   align-items: center;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 nav img {
@@ -19,12 +23,6 @@ nav img {
   image-rendering: crisp-edges;
   -ms-interpolation-mode: nearest-neighbor;
 }
-
-nav h1 {
-  color: #f26c4f;
-  font-size: 2rem;
-}
-
 nav ul {
   display: flex;
   gap: 40px;
@@ -35,7 +33,6 @@ ul li {
 }
 
 .header-content {
-  margin-top: 100px;
   display: flex;
   gap: 30px;
   justify-content: center;
