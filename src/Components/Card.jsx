@@ -25,7 +25,7 @@ const Card = (props) => {
               href={props.demourl}
               target={props.target}
             >
-              View Live Demo
+              Live Demo
             </Button>
             <Button
               bg="#1f1f1f"
