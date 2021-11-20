@@ -27,6 +27,10 @@ a {
   animation: loadin 0.75s;
 }
 
+.container {
+  max-width: 1200px;
+}
+
 @keyframes loadin {
   from {
     opacity: 0;

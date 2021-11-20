@@ -49,6 +49,7 @@ export default Card;
 export const Cardstyled = styled.div`
   display: flex;
   gap: 30px;
+  max-width: 1200px;
 
   @media (max-width: 800px) {
     flex-direction: column;
