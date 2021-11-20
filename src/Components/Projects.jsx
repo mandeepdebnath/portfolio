@@ -22,7 +22,7 @@ const Projects = () => {
           title="Google Search Clone"
           info="Google search clone made using React and search API. This app was made by making use of the search API available in RapidAPI Hub. This project was a learning process while following a course so that I get used to using APIs and React hooks. I have used TailwindCSS for the purpose of quick styling of the components. It also has dark/light mode toggle."
           tags={["HTML", "JavaScript", "React", "TailwindCSS"]}
-          demourl="https://moogle-search.netlify.app/search"
+          demourl="https://moogle-search.netlify.app/"
           githuburl="https://github.com/mandeepdebnath/google-search-clone"
           target="_blank"
         />
