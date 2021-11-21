@@ -1,16 +1,29 @@
 import "../styles/contact.css";
 import React from "react";
-import contact from "../assets/contact.svg";
 import Button from "../Components/Button";
 
 const Contact = () => {
   return (
     <>
       <section className="contact-section" id="contact">
+        <h1>Contact me</h1>
         <div className="wrapper">
-          <img src={contact} alt="" />
+          <form name="contact form" method="POST" data-netlify="true">
+            <div class="details">
+              <input type="hidden" name="form-name" value="contact-form" />
+              <input type="text" name="name" placeholder="Full name" />
+              <input type="text" name="email" placeholder="Email" />
+              <input type="text" name="number" placeholder="Phone number" />
+            </div>
+            <div className="message">
+              <p>Message</p>
+              <textarea rows="4" name="message"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+
           <div className="contact-info">
-            <h1>Let's talk?</h1>
+            <h2>Let's talk?</h2>
             <p className="contact-body">
               I'm open to working on projects or collaborating with people, I'd
               love to hear your ideas and work with you.

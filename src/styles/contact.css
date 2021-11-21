@@ -1,16 +1,75 @@
 .contact-section {
   background: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.contact-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  border-bottom: 3px solid #3e92cc;
+}
+
+form {
+  background: #1f1f1f;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 #000;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input,
+textarea {
+  padding: 10px 20px;
+  outline: none;
+  border: 1px solid #f26c4f;
+  background: transparent;
+  color: #f1f7ee;
+}
+
+.message {
+  margin: 15px 0;
+}
+.message p {
+  margin-bottom: 10px;
+}
+textarea {
+  width: 100%;
+  resize: none;
+  font-family: "Poppins";
+}
+
+form button {
+  padding: 5px 15px;
+  font-size: 1rem;
+  background: #222222;
+  border: #3e92cc solid 3px;
+  color: #f1f7ee;
+  box-shadow: 2px 2px 0 0 #3e92cc;
+  cursor: pointer;
+  transition: all 0.22s ease-in-out;
+}
+form button:hover {
+  box-shadow: 5px 5px 0 0 #3e92cc;
 }
 
 .wrapper {
   display: flex;
-  padding: 100px;
+  padding: 50px;
   gap: 50px;
   justify-content: center;
   align-items: center;
 }
 
-img {
+form {
   width: 50%;
 }
 
@@ -52,12 +111,15 @@ a {
 }
 
 @media (max-width: 800px) {
+  .contact-section {
+    padding: 15px;
+  }
   .wrapper {
     flex-direction: column;
-    padding: 30px;
+    padding: 15px;
   }
 
-  img {
+  form {
     width: 100%;
   }
 

@@ -27,6 +27,23 @@ const Header = () => {
         </ul>
       </nav>
       <header>
+        <div className="stars">
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+        </div>
         <div className="header-content">
           <div className="name">
             <h1>Mandeep Debnath</h1>
@@ -59,12 +76,14 @@ const Header = () => {
             <div className="content-body">
               <p>
                 I'm an undergrad and a frontend developer and I love building
-                static as well as dynamic mobile-responsive websites using HTML,
-                CSS, and Javascript.
+                static as well as dynamic mobile-responsive websites using{" "}
+                <span className="lang">HTML</span>{" "}
+                <span className="lang">CSS</span> and{" "}
+                <span className="lang">JavaScript</span>.
               </p>
               <p>
-                I make web apps using React JS and various CSS frameworks like
-                TailwindCSS and Material UI.
+                I make web apps using <span className="lang">React</span> and
+                various CSS frameworks like TailwindCSS and Material UI.
               </p>
             </div>
             <div className="buttons">

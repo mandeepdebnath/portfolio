@@ -97,7 +97,9 @@ export const Tag = styled.div`
   font-size: 0.8rem;
   font-weight: 300;
   background: transparent;
-  border: 1px solid #f26c4f;
+  /* color: #3e92cc; */
+  border-bottom: 1px solid #3e92cc;
+  border-top: 1px solid #3e92cc;
 
   @media (max-width: 420px) {
     padding: 2px 6px;
