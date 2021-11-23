@@ -39,7 +39,7 @@ const Contact = () => {
               </a>{" "}
               <br />
               <a
-                href="https://twitter.com/mannndeee"
+                href="https://twitter.com/MandeepDebnath"
                 target="_blank"
                 rel="noreferrer"
                 className="hover-animation"

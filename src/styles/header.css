@@ -121,7 +121,7 @@ ul li {
 }
 
 .star {
-  --star-color: #3e92cc;
+  --star-color: #3e91cc88;
   /* --star-color: #97ead2; */
   --star-tail-length: 6em;
   --star-tail-height: 2px;
@@ -151,91 +151,13 @@ ul li {
   --star-tail-length: 6.1em;
   --top-offset: 60.42vh;
   --fall-duration: 8.964s;
-  --fall-delay: 4.351s;
+  --fall-delay: 12.351s;
 }
 .star:nth-child(2) {
   --star-tail-length: 6.25em;
   --top-offset: 3.04vh;
   --fall-duration: 11.516s;
-  --fall-delay: 5.155s;
-}
-.star:nth-child(3) {
-  --star-tail-length: 7.08em;
-  --top-offset: 56.52vh;
-  --fall-duration: 7.098s;
-  --fall-delay: 8.131s;
-}
-.star:nth-child(4) {
-  --star-tail-length: 5.32em;
-  --top-offset: 80.13vh;
-  --fall-duration: 8.255s;
-  --fall-delay: 6.007s;
-}
-.star:nth-child(5) {
-  --star-tail-length: 7.28em;
-  --top-offset: 60.02vh;
-  --fall-duration: 7.702s;
-  --fall-delay: 4.617s;
-}
-.star:nth-child(6) {
-  --star-tail-length: 5.42em;
-  --top-offset: 28.29vh;
-  --fall-duration: 10.413s;
-  --fall-delay: 4.778s;
-}
-.star:nth-child(7) {
-  --star-tail-length: 5.56em;
-  --top-offset: 0.27vh;
-  --fall-duration: 9.937s;
-  --fall-delay: 5.823s;
-}
-.star:nth-child(8) {
-  --star-tail-length: 5.35em;
-  --top-offset: 96.52vh;
-  --fall-duration: 10.445s;
-  --fall-delay: 2.285s;
-}
-.star:nth-child(9) {
-  --star-tail-length: 5.43em;
-  --top-offset: 75.55vh;
-  --fall-duration: 9.536s;
-  --fall-delay: 9.671s;
-}
-.star:nth-child(10) {
-  --star-tail-length: 6.71em;
-  --top-offset: 29.19vh;
-  --fall-duration: 9.058s;
-  --fall-delay: 8.905s;
-}
-.star:nth-child(11) {
-  --star-tail-length: 7.12em;
-  --top-offset: 49.56vh;
-  --fall-duration: 7.512s;
-  --fall-delay: 0.075s;
-}
-.star:nth-child(12) {
-  --star-tail-length: 6.37em;
-  --top-offset: 91.55vh;
-  --fall-duration: 9.281s;
-  --fall-delay: 1.039s;
-}
-.star:nth-child(13) {
-  --star-tail-length: 6.77em;
-  --top-offset: 51.39vh;
-  --fall-duration: 8.12s;
-  --fall-delay: 7.464s;
-}
-.star:nth-child(14) {
-  --star-tail-length: 7.44em;
-  --top-offset: 12.42vh;
-  --fall-duration: 8.276s;
-  --fall-delay: 4.089s;
-}
-.star:nth-child(15) {
-  --star-tail-length: 5.8em;
-  --top-offset: 92.5vh;
-  --fall-duration: 10.625s;
-  --fall-delay: 2.352s;
+  --fall-delay: 7.155s;
 }
 
 .star::before,

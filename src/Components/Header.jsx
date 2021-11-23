@@ -30,26 +30,13 @@ const Header = () => {
         <div className="stars">
           <div class="star"></div>
           <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
         </div>
         <div className="header-content">
           <div className="name">
             <h1>Mandeep Debnath</h1>
             <div className="social-icons">
               <a
-                href="https://twitter.com/mannndeee"
+                href="https://twitter.com/MandeepDebnath"
                 target="_blank"
                 rel="noreferrer"
               >
