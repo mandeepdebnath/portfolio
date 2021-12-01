@@ -11,13 +11,18 @@ const Contact = () => {
           <form name="contact form" method="POST" data-netlify="true">
             <div class="details">
               <input type="hidden" name="form-name" value="contact-form" />
-              <input type="text" name="name" placeholder="Full name" />
-              <input type="text" name="email" placeholder="Email" />
-              <input type="text" name="number" placeholder="Phone number" />
+              <input type="text" name="name" placeholder="Full name" required />
+              <input type="text" name="email" placeholder="Email" required />
+              <input
+                type="text"
+                name="number"
+                placeholder="Phone number"
+                required
+              />
             </div>
             <div className="message">
               <p>Message</p>
-              <textarea rows="4" name="message"></textarea>
+              <textarea rows="4" name="message" required></textarea>
             </div>
             <button type="submit">Submit</button>
           </form>

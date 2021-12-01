@@ -70,7 +70,8 @@ ul li {
   padding: 0 5px;
   color: #222222;
   font-weight: 500;
-  background: linear-gradient(to right, #3e92cc, #c2c2c2);
+  /* background: linear-gradient(to right, #3e92cc, #c2c2c2); */
+  background: #3e92cc;
 }
 .header-content .content-body {
   display: flex;
