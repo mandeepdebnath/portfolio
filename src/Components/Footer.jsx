@@ -4,7 +4,17 @@ import styled from "styled-components";
 const Footer = () => {
   return (
     <Footerstyled>
-      <p>&copy; 2021 Mandeep ~ Created using React</p>
+      <p>
+        &copy; 2021 Mandeep ~{" "}
+        <a
+          href="https://freelancermandeep.ml/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover-animation"
+        >
+          visit my freelance service site
+        </a>
+      </p>
       <p>
         <a href="#top" className="hover-animation">
           Go to top
