@@ -84,9 +84,13 @@ form {
   color: #c2c2c2;
 }
 
+.social a {
+  display: inline-block;
+}
+
 a {
   position: relative;
-  display: inline-block;
+
   text-decoration: none;
   color: #f1f7ee;
   overflow: hidden;

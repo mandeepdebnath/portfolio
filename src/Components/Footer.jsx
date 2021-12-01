@@ -6,14 +6,16 @@ const Footer = () => {
     <Footerstyled>
       <p>
         &copy; 2021 Mandeep ~{" "}
-        <a
-          href="https://freelancermandeep.ml/"
-          target="_blank"
-          rel="noreferrer"
-          className="hover-animation"
-        >
-          visit my freelance service site
-        </a>
+        <span>
+          <a
+            href="https://freelancermandeep.ml/"
+            target="_blank"
+            rel="noreferrer"
+            className="hover-animation"
+          >
+            visit freelance site
+          </a>
+        </span>
       </p>
       <p>
         <a href="#top" className="hover-animation">
