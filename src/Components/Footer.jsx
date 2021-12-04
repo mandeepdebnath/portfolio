@@ -4,19 +4,7 @@ import styled from "styled-components";
 const Footer = () => {
   return (
     <Footerstyled>
-      <p>
-        &copy; 2021 Mandeep ~{" "}
-        <span>
-          <a
-            href="https://freelancermandeep.ml/"
-            target="_blank"
-            rel="noreferrer"
-            className="hover-animation"
-          >
-            visit freelance site
-          </a>
-        </span>
-      </p>
+      <p>&copy; 2021 Mandeep Debnath </p>
       <p>
         <a href="#top" className="hover-animation">
           Go to top
