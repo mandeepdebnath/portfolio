@@ -31,7 +31,7 @@ const Projects = () => {
         <Card
           image="https://i.imgur.com/DpoYBH8.png"
           title="Movies Finder App"
-          info="Search for movies and get their synopsis, ratings, release dates etc. This one was also made by making use of the TMDB API. It fetches the movies data based on what user types on the search box. It was styled using using a React library called Styled Components."
+          info="Search for movies and get their synopsis, ratings, release dates etc. This one was also made by making use of the TMDB API. It fetches the movies data based on what user types on the search box. It was styled using a React library called Styled Components."
           tags={["HTML", "CSS", "JavaScript", "React"]}
           demourl="https://movies-finder-m.netlify.app/"
           githuburl="https://github.com/mandeepdebnath/movies-finder"
