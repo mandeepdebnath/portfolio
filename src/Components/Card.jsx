@@ -7,7 +7,7 @@ const Card = (props) => {
   return (
     <>
       <Cardstyled>
-        <img src={props.image} alt="" />
+        <img src={props.image} alt="" loading="lazy" />
         <Content>
           <h2>{props.title}</h2>
           <Tags>

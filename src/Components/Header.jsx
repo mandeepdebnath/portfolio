@@ -66,11 +66,13 @@ const Header = () => {
                 static as well as dynamic mobile-responsive websites using{" "}
                 <span className="lang">HTML</span>{" "}
                 <span className="lang">CSS</span> and{" "}
-                <span className="lang">JavaScript</span>.
+                <span className="lang">JavaScript</span>. I have experience in
+                working with Bootstrap and TailwindCSS.
               </p>
               <p>
-                I make web apps using <span className="lang">React</span> and
-                various CSS frameworks like TailwindCSS and Material UI.
+                I'm learning to web apps using{" "}
+                <span className="lang">React</span> and other libraries like
+                Material UI.
               </p>
             </div>
             <div className="buttons">
