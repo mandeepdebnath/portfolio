@@ -17,17 +17,6 @@ const Projects = () => {
           githuburl="https://github.com/mandeepdebnath/netflix-clone"
           target="_blank"
         />
-
-        {/* <Card
-          image="https://i.imgur.com/39ctKlp.png"
-          title="Google Search Clone"
-          info="Google search clone made using React and search API. This app was made by making use of the search API available in RapidAPI Hub. This project was a learning process while following a course so that I get used to using APIs and React hooks. I have used TailwindCSS for the purpose of quick styling of the components. It also has dark/light mode toggle."
-          tags={["HTML", "JavaScript", "React", "TailwindCSS"]}
-          demourl="https://moogle-search.netlify.app/"
-          githuburl="https://github.com/mandeepdebnath/google-search-clone"
-          target="_blank"
-        /> */}
-        
         <Card
           image="https://i.imgur.com/DpoYBH8.png"
           title="Movies Finder App"
@@ -38,15 +27,33 @@ const Projects = () => {
           target="_blank"
         />
         <Card
-          image="https://i.imgur.com/CPlePKW.png"
-          title="Todo App"
-          info="A simple app to create todo list and delete the items as well. I've used Material UI for making the components."
-          tags={["HTML", "JavaScript", "React", "Material UI"]}
-          demourl="https://todo-app-man.netlify.app/"
-          githuburl="https://github.com/mandeepdebnath/todo-app"
+          image="https://i.imgur.com/guVeDV5.png"
+          title="Kosmik Imagery"
+          info="Kosmik Imagery shows a unique picture each day from NASA's astronomy picture of the day API. It was made using HTML, vanilla CSS, Bootstrap and vanilla JS"
+          tags={["HTML", "CSS", "JavaScript", "Bootstrap"]}
+          demourl="https://kosmikimagery.netlify.app/"
+          githuburl="https://github.com/mandeepdebnath/kosmikimagery"
           target="_blank"
         />
         <Card
+          image="https://i.imgur.com/VwnLwh2.png"
+          title="Techsnap Blog Layout"
+          info="A simple blog post layout I made using HTML and vanilla CSS. It was a task given by the organization Techsnap."
+          tags={["HTML", "CSS", "JavaScript"]}
+          demourl="https://techsnap.netlify.app/"
+          githuburl="https://github.com/mandeepdebnath/techsnap-task"
+          target="_blank"
+        />
+        <Card
+          image="https://i.imgur.com/IfB7RHO.png"
+          title="Todo App"
+          info="A simple site that displays the characters from the popular show Game of Thrones."
+          tags={["HTML", "CSS", "JavaScript", "Bootstrap"]}
+          demourl="https://got-characterss.netlify.app/"
+          githuburl="https://github.com/mandeepdebnath/got-characters"
+          target="_blank"
+        />
+        {/* <Card
           image="https://i.imgur.com/L5oambl.png"
           title="Tic Tac Toe Game"
           info="A tic-tac-toe game made using HTML, CSS and Vanilla JavaScript."
@@ -54,8 +61,8 @@ const Projects = () => {
           demourl="https://tictactoe-game-md.netlify.app/"
           githuburl="https://github.com/mandeepdebnath/tic-tac-toe"
           target="_blank"
-        />
-        <Card
+        /> */}
+        {/* <Card
           image="https://i.imgur.com/aNAeEKX.png"
           title="Rock Paper Scissors Game"
           info="A rock paper scissors game made using HTML, CSS and Vanilla JavaScript."
@@ -63,16 +70,16 @@ const Projects = () => {
           demourl="https://rockpaperscissors-game-md.netlify.app/"
           githuburl="https://github.com/mandeepdebnath/rock-paper-scissors"
           target="_blank"
-        />
-        <Card
+        /> */}
+        {/* <Card
           image="https://i.imgur.com/Sp18pBU.png"
           title="Meditation App"
           info="A meditation app made using HTML, CSS and Vanilla JavaScript that plays relaxing sounds to meditate."
           tags={["HTML", "CSS", "JavaScript"]}
           demourl="https://mandeepdebnath.github.io/meditation-app/"
           githuburl="https://github.com/mandeepdebnath/meditation-app"
-          target="_blank"
-        />
+          target="_blank" 
+        />*/}
       </section>
     </>
   );
