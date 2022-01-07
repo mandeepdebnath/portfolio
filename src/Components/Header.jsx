@@ -70,7 +70,7 @@ const Header = () => {
                 working with Bootstrap and TailwindCSS.
               </p>
               <p>
-                I'm learning to web apps using{" "}
+                I'm learning to build web apps using{" "}
                 <span className="lang">React</span> and other libraries like
                 Material UI.
               </p>
