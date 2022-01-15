@@ -46,7 +46,7 @@ const Projects = () => {
         />
         <Card
           image="https://i.imgur.com/IfB7RHO.png"
-          title="Todo App"
+          title="GOT Characters"
           info="A simple site that displays the characters from the popular show Game of Thrones."
           tags={["HTML", "CSS", "JavaScript", "Bootstrap"]}
           demourl="https://got-characterss.netlify.app/"
